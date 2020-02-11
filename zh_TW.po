@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2016-06-07 06:29+0800\n"
-"PO-Revision-Date: 2016-06-11 08:26+0800\n"
+"PO-Revision-Date: 2020-02-11 22:52+0800\n"
 "Last-Translator: Guo <a@guo.biz>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -475,11 +475,11 @@ msgstr "拖拽到你的書籤欄！"
 
 #: admin/tools.php:48
 msgid "Shorten"
-msgstr ""
+msgstr "縮短"
 
 #: admin/tools.php:49
 msgid "Instant Shorten"
-msgstr ""
+msgstr "即時縮短"
 
 #: admin/tools.php:52
 msgid "Custom Keyword"
@@ -692,6 +692,8 @@ msgid ""
 "YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
 "found. Check your server config, or contact your host."
 msgstr ""
+"YOURLS 需要 mysql、mysqli 或 pdo_mysql 模組。檢查您的伺服器設定，或與您的伺服"
+"器管理員聯絡。"
 
 #: includes/class-mysql.php:40 includes/functions-install.php:16
 #: includes/functions.php:438 includes/functions.php:450
@@ -708,7 +710,7 @@ msgstr "無效的使用者名稱或密碼"
 
 #: includes/functions-auth.php:104
 msgid "Please log in"
-msgstr "請登錄"
+msgstr "請登入"
 
 #: includes/functions-html.php:142
 #, php-format
@@ -889,7 +891,7 @@ msgstr "不是一個一般網址"
 
 #: includes/functions-html.php:627
 msgid "Original URL"
-msgstr "原網址網址"
+msgstr "原網址"
 
 #: includes/functions-html.php:631
 msgid "Actions"
@@ -905,7 +907,7 @@ msgstr "密碼"
 
 #: includes/functions-html.php:705
 msgid "Login"
-msgstr "登錄"
+msgstr "登入"
 
 #: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
 #, php-format
@@ -1272,7 +1274,7 @@ msgstr "無效的網址"
 
 #: includes/functions.php:201
 msgid "Missing or malformed URL"
-msgstr "丟失或錯誤格式的URL"
+msgstr "遺失或錯誤格式的URL"
 
 #: includes/functions.php:215
 msgid "URL is a short URL"
