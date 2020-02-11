@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2016-06-07 06:29+0800\n"
-"PO-Revision-Date: 2020-02-11 22:52+0800\n"
+"PO-Revision-Date: 2020-02-11 23:24+0800\n"
 "Last-Translator: Guo <a@guo.biz>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: yourls-infos.php:204
 #, php-format
 msgid "Statistics for %s"
-msgstr "資料統計 %s "
+msgstr "資料統計 %s"
 
 #: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
 #: admin/index.php:93 includes/functions-html.php:209
@@ -75,7 +75,7 @@ msgstr "全部時間"
 #: yourls-infos.php:309
 #, php-format
 msgid "Number of hits : %s"
-msgstr "點擊數： %s "
+msgstr "點擊數： %s"
 
 #: yourls-infos.php:332
 msgid "Historical click count"
@@ -85,29 +85,29 @@ msgstr "歷史點擊數"
 #, php-format
 msgid "about 1 day ago"
 msgid_plural "about %s days ago"
-msgstr[0] " %s 天前"
+msgstr[0] "%s 天前"
 
 #. //translators: eg Short URL created on March 23rd 1972
 #: yourls-infos.php:341
 #, php-format
 msgid "Short URL created on %s"
-msgstr "短網址建立於 %s "
+msgstr "短網址建立於 %s"
 
 #: yourls-infos.php:356 yourls-infos.php:363
 #, php-format
 msgid "%s per day"
-msgstr " %s 每天"
+msgstr "%s 每天"
 
 #: yourls-infos.php:359
 #, php-format
 msgid "%s per hour"
-msgstr " %s 每小時"
+msgstr "%s 每小時"
 
 #: yourls-infos.php:366
 #, php-format
 msgid "%s hit"
 msgid_plural "%s hits"
-msgstr[0] " %s 次"
+msgstr[0] "%s 次"
 
 #: yourls-infos.php:373
 msgid "Best day"
@@ -127,13 +127,13 @@ msgstr "點擊查看更多詳情"
 #: yourls-infos.php:387 yourls-infos.php:390
 #, php-format
 msgid "Year %s"
-msgstr " %s 年"
+msgstr "%s 年"
 
 #: yourls-infos.php:409 yourls-infos.php:447
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
-msgstr[0] " %s 次點擊"
+msgstr[0] "%s 次點擊"
 
 #: yourls-infos.php:426
 msgid "No traffic yet. Get some clicks first!"
@@ -181,7 +181,7 @@ msgstr "直接"
 
 #: yourls-infos.php:520
 msgid "Direct traffic:"
-msgstr "直接流量"
+msgstr "直接流量:"
 
 #: yourls-infos.php:520 yourls-infos.php:521
 #, php-format
@@ -191,7 +191,7 @@ msgstr[0] "<strong> %s </strong> 次點擊"
 
 #: yourls-infos.php:521
 msgid "Referrer traffic:"
-msgstr "引薦流量"
+msgstr "引薦流量:"
 
 #: yourls-infos.php:530
 msgid "No referrer data."
@@ -222,7 +222,7 @@ msgstr "IP位址"
 #: admin/index.php:50
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
-msgstr "尋找 <strong>%2$s</strong> <strong>%1$s</strong>"
+msgstr "尋找 <strong>%2$s</strong> <strong>%1$s</strong>."
 
 #: admin/index.php:101 includes/functions-html.php:223
 #: includes/functions-html.php:628
@@ -274,23 +274,23 @@ msgstr "無結果"
 #: admin/install.php:13 admin/install.php:18
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
-msgstr " %s 版本太低，諮詢你的伺服器管理員進行升級。"
+msgstr "%s 版本太低，請聯絡你的伺服器管理員進行升級。"
 
 #: admin/install.php:24
 msgid "YOURLS already installed."
-msgstr "YOURLS 已經安裝"
+msgstr "YOURLS 已經安裝."
 
 #: admin/install.php:35
 msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr "<tt>。htaccess</tt>檔案已經成功建立/上傳"
+msgstr "<tt>.htaccess</tt>檔案已經成功建立/上傳."
 
 #: admin/install.php:37
 msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
-"無法在YOURLS根目錄寫入<tt>。htaccess</tt>。你必須手動建立一個。查看 <a href="
-"\"http://yourls。org/htaccess\">如何解決</a>。"
+"無法在YOURLS根目錄寫入<tt>.htaccess</tt>。你必須手動建立一個。查看 <a href="
+"\"http://yourls.org/htaccess\">如何解決</a>。"
 
 #: admin/install.php:50 admin/install.php:71
 msgid "Install YOURLS"
@@ -310,25 +310,25 @@ msgstr "沒有指定插件，或者是一個無效的插件"
 
 #: admin/plugins.php:51
 msgid "Plugin has been activated"
-msgstr "插件已經啟動"
+msgstr "外掛已經啟動"
 
 #: admin/plugins.php:53
 msgid "Plugin has been deactivated"
-msgstr "插件已經取消啟動"
+msgstr "外掛已經取消啟動"
 
 #: admin/plugins.php:58 includes/functions-html.php:745
 msgid "Manage Plugins"
-msgstr "管理插件"
+msgstr "管理外掛"
 
 #: admin/plugins.php:63
 msgid "Plugins"
-msgstr "插件"
+msgstr "外掛"
 
 #: admin/plugins.php:70
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
-msgstr[0] " %s 個插件"
+msgstr[0] "%s 個插件"
 
 #. //translators: "you have '3 plugins' installed and '1' activated"
 #: admin/plugins.php:74
@@ -340,7 +340,7 @@ msgstr "您目前有<strong>%1$s</strong>安裝，和<strong>%2$s</strong>啟動
 
 #: admin/plugins.php:79
 msgid "Plugin Name"
-msgstr "插件名稱"
+msgstr "外掛名稱"
 
 #: admin/plugins.php:80
 msgid "Version"
@@ -369,11 +369,11 @@ msgstr "啟動"
 #: admin/plugins.php:133
 #, php-format
 msgid "plugin file location: %s"
-msgstr "插件檔案位置： %s "
+msgstr "外掛檔案位置： %s"
 
 #: admin/plugins.php:150
 msgid "Toggle active/inactive plugins"
-msgstr "切換顯示啟動和未啟動插件"
+msgstr "切換顯示啟動和未啟動外掛"
 
 #: admin/plugins.php:157
 msgid ""
@@ -381,20 +381,20 @@ msgid ""
 "YOURLS or access this page, simply rename or delete its directory, or rename "
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
-"如果在你啟動插件後發生了某些錯誤，導致你無法使用YOURLS或者無法進入這個頁面，"
-"請直接刪除或重命名這個插件目錄，也可以只更改插件的檔案名稱（從<code>plugin."
+"如果在你啟動外掛後發生了某些錯誤，導致你無法使用YOURLS或者無法進入這個頁面，"
+"請直接刪除或重命名這個外掛目錄，也可以只更改外掛的檔案名稱（從<code>plugin."
 "php</code>改為其它）。"
 
 #: admin/plugins.php:159
 msgid "More plugins"
-msgstr "更多插件"
+msgstr "更多外掛"
 
 #: admin/plugins.php:161
 msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
 "\">Plugin list</a>."
 msgstr ""
-"前往<a href=\"http://yourls。org/pluginlist\">官方插件列表</a>尋找更多插件"
+"前往<a href=\"http://yourls。org/pluginlist\">官方外掛列表</a>尋找更多外掛."
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
@@ -402,13 +402,13 @@ msgstr "YOURLS工具"
 
 #: admin/tools.php:13
 msgid "Bookmarklets"
-msgstr "書籤工具 Bookmarklets"
+msgstr "書籤工具"
 
 #: admin/tools.php:15
 msgid ""
 "YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
 "and sharing."
-msgstr "YOURLS有方便的<span>bookmarklets</span>使縮短網址和共享更加容易。"
+msgstr "YOURLS有方便的<span>bookmarklets</span>使縮短網址和分享更加容易。"
 
 #: admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
@@ -431,13 +431,13 @@ msgstr ""
 msgid ""
 "The <span>Simple Bookmarklets</span> will generate a short URL with a random "
 "or sequential keyword."
-msgstr "<span>簡單模式書籤</span> 將建立一個隨機字元的短網址"
+msgstr "<span>簡單模式書籤</span> 將建立一個隨機字元的短網址."
 
 #: admin/tools.php:26
 msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
-msgstr "<span>自訂模式書籤</span>將提示你輸入一個自訂的網址網址。"
+msgstr "<span>自訂模式書籤</span>將提示你輸入一個自訂的網址。"
 
 #: admin/tools.php:30
 msgid ""
@@ -483,15 +483,15 @@ msgstr "即時縮短"
 
 #: admin/tools.php:52
 msgid "Custom Keyword"
-msgstr "自訂"
+msgstr "自訂關鍵字"
 
 #: admin/tools.php:53
 msgid "Custom shorten"
-msgstr ""
+msgstr "自訂縮短"
 
 #: admin/tools.php:54
 msgid "Instant Custom Shorten"
-msgstr ""
+msgstr "即時自訂縮短"
 
 #: admin/tools.php:59
 msgid "Social Bookmarklets"
@@ -503,19 +503,19 @@ msgstr "一個按鈕建立縮網址並分享至社群網站！"
 
 #: admin/tools.php:64
 msgid "Shorten and share:"
-msgstr "縮網址並分享"
+msgstr "縮網址並分享:"
 
 #: admin/tools.php:68
 msgid "YOURLS &amp; Facebook"
-msgstr ""
+msgstr "YOURLS &amp; Facebook"
 
 #: admin/tools.php:70
 msgid "YOURLS &amp; Twitter"
-msgstr ""
+msgstr "YOURLS &amp; Twitter"
 
 #: admin/tools.php:72
 msgid "YOURLS &amp; Tumblr"
-msgstr ""
+msgstr "YOURLS &amp; Tumblr"
 
 #: admin/tools.php:80
 msgid "Prefix-n-Shorten"
@@ -529,7 +529,7 @@ msgid ""
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
 "當你瀏覽一個網頁的時候，你可以在當前網頁網址的最開始（就是http://的左邊）添加"
-"\"<span> %s </span>\" 並敲擊Enter，你便可以直接獲得短網址。"
+"\"<span> %s </span>\" 並點擊Enter，你便可以直接獲得短網址。"
 
 #: admin/tools.php:85
 msgid ""
@@ -538,19 +538,19 @@ msgstr "注意：這項功能可能在有些執行在Windows伺服器上的網�
 
 #: admin/tools.php:87
 msgid " (which seems to be the case here)"
-msgstr "（看起來就像現在這裡的情況）"
+msgstr " （看起來就像現在這裡的情況）"
 
 #: admin/tools.php:93
 msgid "Secure passwordless API call"
-msgstr "安全的API調用"
+msgstr "安全的 API 呼叫"
 
 #: admin/tools.php:96
 msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
-"YOURLS允許使用老方法進行API調用，即使用<tt>username</tt>和<tt>password</tt>參"
-"數。"
+"YOURLS 允許使用老方法進行 API 呼叫，即使用<tt>username</tt>和<tt>password</"
+"tt>參數。"
 
 #: admin/tools.php:98
 msgid ""
@@ -558,8 +558,8 @@ msgid ""
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
-"如果你擔心這有潛在的風險，你也可以不使用你的使用者名稱或密碼進行API調用，而使"
-"用一個 secret signature token。"
+"如果你擔心這有潛在的風險，你也可以不使用你的帳號或密碼進行 API 呼叫，而使用一"
+"個 secret signature token。"
 
 #: admin/tools.php:102
 #, php-format
@@ -568,13 +568,13 @@ msgstr "你的 secret signature token：<strong><code> %s </code></strong>"
 
 #: admin/tools.php:103
 msgid "(It's a secret. Keep it secret) "
-msgstr "（請儲存好，勿洩露）"
+msgstr "（請儲存好，勿洩露） "
 
 #: admin/tools.php:106
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
-msgstr "這個signature token僅僅用於API調用，而不能用於管理介面等。"
+msgstr "這個 signature token 僅僅用於 API 呼叫，而不能用於管理介面等。"
 
 #: admin/tools.php:109
 msgid "Usage of the signature token"
@@ -582,7 +582,7 @@ msgstr "使用signature token"
 
 #: admin/tools.php:110
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
-msgstr "只需要使用<tt>signature</tt>參數在你的API請求中，例如："
+msgstr "只需要使用<tt>signature</tt>參數在你的 API 請求中，例如："
 
 #: admin/tools.php:114
 msgid "Usage of a time limited signature token"
@@ -596,7 +596,8 @@ msgstr "有效值："
 msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
-msgstr "使用參數<tt>signature</tt>和<tt>timestamp</tt>在你的API請求中，例如："
+msgstr ""
+"使用參數<tt>signature</tt>和<tt>timestamp</tt>在你的 API 請求中，例如："
 
 #: admin/tools.php:124
 msgid "Actual values:"
@@ -619,7 +620,7 @@ msgstr "升級YOURLS"
 #: admin/upgrade.php:18
 #, php-format
 msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
-msgstr "無需升級，請<a href=\" %s \">返回</a>"
+msgstr "無需升級，請<a href=\" %s \">返回</a>!"
 
 #: admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
@@ -665,7 +666,7 @@ msgstr "升級"
 
 #: admin/upgrade.php:77
 msgid "Your installation is now up to date ! "
-msgstr "你的安裝版本已經是最新版了！"
+msgstr "你的安裝版本已經是最新版了 "
 
 #: admin/upgrade.php:78
 #, php-format
@@ -706,7 +707,7 @@ msgstr "登出成功"
 
 #: includes/functions-auth.php:102
 msgid "Invalid username or password"
-msgstr "無效的使用者名稱或密碼"
+msgstr "無效的帳號或密碼"
 
 #: includes/functions-auth.php:104
 msgid "Please log in"
@@ -716,7 +717,7 @@ msgstr "請登入"
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
-msgstr[0] " %s 次查詢"
+msgstr[0] "%s 次查詢"
 
 #: includes/functions-html.php:147
 #, php-format
@@ -729,7 +730,7 @@ msgstr "輸入網址網址"
 
 #: includes/functions-html.php:176
 msgid "Optional "
-msgstr "可選"
+msgstr "選填 "
 
 #: includes/functions-html.php:176
 msgid "Custom short URL"
@@ -748,7 +749,7 @@ msgstr "IP"
 #: includes/functions-html.php:216
 #, php-format
 msgid "Search for %1$s in %2$s"
-msgstr "尋找 <strong>%2$s</strong><strong>%1$s</strong> "
+msgstr "尋找 <strong>%2$s</strong><strong>%1$s</strong>"
 
 #: includes/functions-html.php:230
 msgid "Ascending"
@@ -814,7 +815,7 @@ msgstr "清空條件"
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
-msgstr[0] " %s 頁"
+msgstr[0] "%s 頁"
 
 #: includes/functions-html.php:299 includes/functions-html.php:313
 msgid "Go to First Page"
@@ -847,15 +848,15 @@ msgstr "分享到"
 
 #: includes/functions-html.php:405
 msgid "Tweet this!"
-msgstr "分享到推特"
+msgstr "推文!"
 
 #: includes/functions-html.php:406
 msgid "Share on Facebook"
-msgstr "分享到Fackbook"
+msgstr "分享到 Fackbook"
 
 #: includes/functions-html.php:407
 msgid "Share on Friendfeed"
-msgstr "分享到Friendfeed"
+msgstr "分享到 Friendfeed"
 
 #: includes/functions-html.php:464
 msgid "Save"
@@ -863,7 +864,7 @@ msgstr "儲存"
 
 #: includes/functions-html.php:464
 msgid "Save new values"
-msgstr "儲存新值"
+msgstr "儲存新數值"
 
 #: includes/functions-html.php:464
 msgid "Cancel"
@@ -887,7 +888,7 @@ msgstr "刪除"
 
 #: includes/functions-html.php:541
 msgid "Not a common link"
-msgstr "不是一個一般網址"
+msgstr "不是一般網址"
 
 #: includes/functions-html.php:627
 msgid "Original URL"
@@ -899,7 +900,7 @@ msgstr "動作"
 
 #: includes/functions-html.php:697
 msgid "Username"
-msgstr "使用者名稱"
+msgstr "帳號"
 
 #: includes/functions-html.php:701
 msgid "Password"
@@ -912,7 +913,7 @@ msgstr "登入"
 #: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
 #, php-format
 msgid "Hello <strong>%s</strong>"
-msgstr "你好 <strong> %s </strong>"
+msgstr "哈囉 <strong> %s </strong>"
 
 #: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
 msgid "Logout"
@@ -954,7 +955,7 @@ msgstr "資料庫無法連線或設定錯誤"
 #: includes/functions-install.php:241
 #, php-format
 msgid "Table '%s' created."
-msgstr "' %s '已建立"
+msgstr "' %s '已建立."
 
 #: includes/functions-install.php:243
 #, php-format
@@ -971,11 +972,11 @@ msgstr "無法插入示範短網址"
 
 #: includes/functions-install.php:257
 msgid "YOURLS tables successfully created."
-msgstr "YOURLS 資料表已經成功建立"
+msgstr "YOURLS 資料表已經成功建立."
 
 #: includes/functions-install.php:259
 msgid "Error creating YOURLS tables."
-msgstr "建立YOURLS資料表出錯。"
+msgstr "建立 YOURLS 資料表出錯。"
 
 #. //translators: weekday
 #: includes/functions-l10n.php:795 includes/functions-l10n.php:805
@@ -1228,12 +1229,12 @@ msgstr "PM"
 #. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
 #: includes/functions-l10n.php:869
 msgid "number_format_thousands_sep"
-msgstr " "
+msgstr ","
 
 #. //translators: $dec_point argument for http://php.net/number_format, default is .
 #: includes/functions-l10n.php:873
 msgid "number_format_decimal_point"
-msgstr "。"
+msgstr "."
 
 #. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
 #: includes/functions-l10n.php:880
@@ -1243,11 +1244,11 @@ msgstr "ltr"
 #: includes/functions-plugins.php:387
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] "無法找到並禁用插件："
+msgstr[0] "無法找到並禁用外掛："
 
 #: includes/functions-plugins.php:425
 msgid "Not a valid plugin file"
-msgstr "無效的插件檔案"
+msgstr "無效的外掛檔案"
 
 #: includes/functions-plugins.php:430
 msgid "Plugin already activated"
@@ -1289,7 +1290,7 @@ msgstr "短網址 %s 已經存在資料庫中或被回收"
 #: includes/functions.php:253 includes/functions.php:275
 #, php-format
 msgid "%s added to database"
-msgstr " %s 已儲存為"
+msgstr "%s 已儲存為"
 
 #: includes/functions.php:283
 msgid "Error saving url to database"
@@ -1299,7 +1300,7 @@ msgstr "儲存置資料庫發生錯誤"
 #: includes/functions.php:300
 #, php-format
 msgid "%s already exists in database"
-msgstr " %s 已經存在"
+msgstr "%s 已經存在"
 
 #: includes/functions.php:355
 msgid "Link updated in database"
@@ -1329,7 +1330,7 @@ msgstr "請<a href=\" %s \">點擊這裡</a>"
 
 #: includes/functions.php:1394
 msgid "Too many URLs added too fast. Slow down please."
-msgstr "太多的網址，請慢一些"
+msgstr "新增太多網址了，請慢一些."
 
 #: includes/functions.php:1394
 msgid "Forbidden"
