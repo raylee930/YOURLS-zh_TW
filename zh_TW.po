@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2016-06-07 06:29+0800\n"
-"PO-Revision-Date: 2020-02-11 23:24+0800\n"
+"PO-Revision-Date: 2020-02-11 23:29+0800\n"
 "Last-Translator: Guo <a@guo.biz>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -306,15 +306,15 @@ msgstr "無效的動作"
 
 #: admin/plugins.php:42
 msgid "No plugin specified, or not a valid plugin"
-msgstr "沒有指定插件，或者是一個無效的插件"
+msgstr "沒有指定外掛，或者是一個無效的外掛"
 
 #: admin/plugins.php:51
 msgid "Plugin has been activated"
-msgstr "外掛已經啟動"
+msgstr "外掛已經啟用"
 
 #: admin/plugins.php:53
 msgid "Plugin has been deactivated"
-msgstr "外掛已經取消啟動"
+msgstr "外掛已經停用"
 
 #: admin/plugins.php:58 includes/functions-html.php:745
 msgid "Manage Plugins"
@@ -328,7 +328,7 @@ msgstr "外掛"
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
-msgstr[0] "%s 個插件"
+msgstr[0] "%s 個外掛"
 
 #. //translators: "you have '3 plugins' installed and '1' activated"
 #: admin/plugins.php:74
@@ -1252,22 +1252,22 @@ msgstr "無效的外掛檔案"
 
 #: includes/functions-plugins.php:430
 msgid "Plugin already activated"
-msgstr "插件已經啟動"
+msgstr "外掛已經啟動"
 
 #: includes/functions-plugins.php:438
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
-msgstr "插件發生不可預測的錯誤。錯誤：<br/><pre> %s </pre>"
+msgstr "外掛發生不可預測的錯誤：<br/><pre> %s </pre>"
 
 #: includes/functions-plugins.php:461
 msgid "Plugin not active"
-msgstr "插件未啟動"
+msgstr "外掛未啟用"
 
 #: includes/functions-plugins.php:541
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
-msgstr "這個頁面不存在。可能是插件並未啟動？"
+msgstr "這個頁面不存在。可能是外掛並未啟用？"
 
 #: includes/functions-plugins.php:541
 msgid "Invalid link"
